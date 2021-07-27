@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.daasuu.camerarecorder" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="24"
+6-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+9-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:4:5-71
+9-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:4:22-68
+10    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+10-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:5:5-80
+10-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:5:22-77
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:7:22-76
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:8:5-60
+14-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:8:19-57
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:9:5-70
+15-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:9:19-67
+16
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:10:5-65
+17-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:10:22-62
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:11:5-80
+18-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:4:5-71
+19-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:4:22-68
+20
+21    <application
+21-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:13:5-86:19
+22        android:allowBackup="true"
+22-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:14:9-35
+23        android:label="@string/app_name"
+23-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:15:9-41
+24        android:supportsRtl="true"
+24-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:16:9-35
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:17:9-40
+26        <activity
+26-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:18:9-20:51
+27            android:name="com.daasuu.camerarecorder.VideoProcessActivity"
+27-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:19:13-74
+28            android:screenOrientation="portrait" />
+28-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:20:13-49
+29        <activity
+29-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:21:9-23:51
+30            android:name="com.daasuu.camerarecorder.BaseCameraActivity"
+30-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:22:13-72
+31            android:screenOrientation="portrait" />
+31-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:23:13-49
+32        <activity
+32-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:24:9-26:52
+33            android:name="com.daasuu.camerarecorder.FastAndSlowVideoMotionActivity"
+33-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:25:13-84
+34            android:screenOrientation="portrait" />
+34-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:26:13-49
+35        <activity
+35-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:27:9-29:52
+36            android:name="com.daasuu.camerarecorder.CombineImagesActivity"
+36-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:28:13-75
+37            android:screenOrientation="portrait" />
+37-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:29:13-49
+38        <activity
+38-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:30:9-32:52
+39            android:name="com.daasuu.camerarecorder.ExtractAudioActivity"
+39-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:31:13-74
+40            android:screenOrientation="portrait" />
+40-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:32:13-49
+41        <activity
+41-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:33:9-36:52
+42            android:name="com.daasuu.camerarecorder.AddTextOnVideoActivity"
+42-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:34:13-76
+43            android:screenOrientation="portrait"
+43-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:36:13-49
+44            android:theme="@style/Theme.AppCompat.SelfLucent" />
+44-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:35:13-62
+45        <activity
+45-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:37:9-39:52
+46            android:name="com.daasuu.camerarecorder.ReverseVideoActivity"
+46-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:38:13-74
+47            android:screenOrientation="portrait" />
+47-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:39:13-49
+48        <activity
+48-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:40:9-42:52
+49            android:name="com.daasuu.camerarecorder.MergeImageAndMP3Activity"
+49-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:41:13-78
+50            android:screenOrientation="portrait" />
+50-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:42:13-49
+51        <activity
+51-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:43:9-46:52
+52            android:name="com.daasuu.camerarecorder.AddWaterMarkOnVideoActivity"
+52-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:44:13-81
+53            android:screenOrientation="portrait"
+53-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:46:13-49
+54            android:theme="@style/Theme.AppCompat.SelfLucent" />
+54-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:45:13-62
+55        <activity
+55-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:47:9-49:52
+56            android:name="com.daasuu.camerarecorder.CombineVideosActivity"
+56-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:48:13-75
+57            android:screenOrientation="portrait" />
+57-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:49:13-49
+58        <activity
+58-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:50:9-52:52
+59            android:name="com.daasuu.camerarecorder.CombineImageAndVideoActivity"
+59-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:51:13-82
+60            android:screenOrientation="portrait" />
+60-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:52:13-49
+61        <activity
+61-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:53:9-55:52
+62            android:name="com.daasuu.camerarecorder.MergeAudioVideoActivity"
+62-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:54:13-77
+63            android:screenOrientation="portrait" />
+63-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:55:13-49
+64        <activity
+64-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:56:9-58:52
+65            android:name="com.daasuu.camerarecorder.RemoveAudioFromVideoActivity"
+65-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:57:13-82
+66            android:screenOrientation="portrait" />
+66-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:58:13-49
+67        <activity
+67-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:59:9-61:52
+68            android:name="com.daasuu.camerarecorder.ImageToVideoConvertActivity"
+68-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:60:13-81
+69            android:screenOrientation="portrait" />
+69-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:61:13-49
+70        <activity
+70-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:62:9-64:52
+71            android:name="com.daasuu.camerarecorder.VideoRotateFlipActivity"
+71-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:63:13-77
+72            android:screenOrientation="portrait" />
+72-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:64:13-49
+73        <activity
+73-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:65:9-67:52
+74            android:name="com.daasuu.camerarecorder.CutVideoUsingTimeActivity"
+74-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:66:13-79
+75            android:screenOrientation="portrait" />
+75-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:67:13-49
+76        <activity
+76-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:68:9-70:52
+77            android:name="com.daasuu.camerarecorder.VideoToGifActivity"
+77-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:69:13-72
+78            android:screenOrientation="portrait" />
+78-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:70:13-49
+79        <activity
+79-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:71:9-73:52
+80            android:name="com.daasuu.camerarecorder.OptionsList"
+80-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:72:13-65
+81            android:screenOrientation="portrait" />
+81-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:73:13-49
+82        <activity
+82-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:74:9-76:52
+83            android:name="com.daasuu.camerarecorder.TrimMainActivity"
+83-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:75:13-70
+84            android:screenOrientation="portrait" />
+84-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:76:13-49
+85        <activity
+85-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:77:9-79:52
+86            android:name="com.daasuu.camerarecorder.TrimmerActivity"
+86-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:78:13-69
+87            android:screenOrientation="portrait" />
+87-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:79:13-49
+88        <activity
+88-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:80:9-82:52
+89            android:name="com.daasuu.camerarecorder.VoiceRecorderActivity"
+89-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:81:13-75
+90            android:screenOrientation="portrait" />
+90-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:82:13-49
+91
+92        <meta-data
+92-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:83:9-85:57
+93            android:name="preloaded_fonts"
+93-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:84:13-43
+94            android:resource="@array/preloaded_fonts" />
+94-->C:\Users\asus\Desktop\TraditionalEditor\camerarecorder\src\main\AndroidManifest.xml:85:13-54
+95    </application>
+96
+97</manifest>

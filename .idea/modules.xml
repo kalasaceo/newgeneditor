@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TraditionalEditor.iml" filepath="$PROJECT_DIR$/.idea/modules/TraditionalEditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SSffmpegVideoOperation/TraditionalEditor.SSffmpegVideoOperation.iml" filepath="$PROJECT_DIR$/.idea/modules/SSffmpegVideoOperation/TraditionalEditor.SSffmpegVideoOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camerarecorder/TraditionalEditor.camerarecorder.iml" filepath="$PROJECT_DIR$/.idea/modules/camerarecorder/TraditionalEditor.camerarecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/TraditionalEditor.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/TraditionalEditor.sample.iml" />
+    </modules>
+  </component>
+</project>
